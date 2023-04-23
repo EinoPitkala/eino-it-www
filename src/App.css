@@ -58,6 +58,8 @@
 }
 body {
   font-family: "Kanit";
+  margin: 0;
+  padding: 0;
 }
 .App {
   text-align: left;

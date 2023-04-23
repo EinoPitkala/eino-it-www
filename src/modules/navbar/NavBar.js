@@ -1,4 +1,4 @@
-import { ReactComponent as Brand } from "../assets/images/logo.svg";
+import { ReactComponent as Brand } from "../../assets/images/logo.svg";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 export default function NavBar() {
@@ -6,7 +6,7 @@ export default function NavBar() {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <Brand />
+          <Brand className="logo-img" />
         </div>
         <div className="nav-elements">
           <ul>
