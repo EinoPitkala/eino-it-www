@@ -60,24 +60,30 @@ body {
   font-family: "Kanit";
   margin: 0;
   padding: 0;
+  background-color: #0A2647;
 }
+
 .App {
   text-align: left;
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: left;
   padding: 20px 20vw;
 }
+@media only screen and (max-width: 600px) {
+  .App {
+    padding: 20px 5vw;
+  }
+}
 .marketing-word {
   font-size: 1.5rem;
   font-weight: 300;
-  color: #000000;
+  color: #ffffff;
 }
 .companyName {
-  font-size: 2.5rem;
+  font-size: 6vh;
   font-weight: 600;
-  color: #3a3a3a;
+  color: #ffffff;
 }
 .button {
   text-decoration: none;
@@ -92,4 +98,12 @@ body {
 }
 .button:hover {
   background-color: #352f2f;
+}
+
+.landing-block {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
