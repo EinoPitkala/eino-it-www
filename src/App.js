@@ -1,7 +1,7 @@
-import './App.css';
-import LandingBlock from './modules/LandingBlock';
-import NavBar from './modules/NavBar';
-import { BrowserRouter } from 'react-router-dom'
+import "./App.css";
+import LandingBlock from "./modules/LandingBlock";
+import NavBar from "./modules/navbar/NavBar";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
