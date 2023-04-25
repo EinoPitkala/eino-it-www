@@ -8,8 +8,8 @@ export default function LandingBlock() {
           IT-Apua asiantuntevalta 14-vuotiaalta nuorelta yrittäjältä.
         </h1>
         <h2 className="marketing-word">
-          Hanki mielenrauhaa laitteidesi toimintavarmuuteen. Valitse pienyrityksen
-          apu. Tuet myös samalla nuoren pojan unelmia ja haaveita.
+          Hanki mielenrauhaa laitteidesi toimintavarmuuteen. Valitse
+          pienyrityksen apu. Tuet myös samalla nuoren pojan unelmia ja haaveita.
         </h2>
       </div>
       <div className="button-row">
