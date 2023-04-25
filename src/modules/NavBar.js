@@ -11,13 +11,23 @@ function NavBar() {
   return (
     <header>
       <h3>
-       <Link to="/"><Logo  /></Link>
+        <Link to="/">
+          <Logo />
+        </Link>
       </h3>
       <nav ref={navRef}>
-        <Link className="nav-link" to="">Koti</Link>
-        <Link className="nav-link" to="">Palvelut</Link>
-        <Link className="nav-link" to="">Yhteystiedot</Link>
-        <Link className="nav-link" to="">Tietoja</Link>
+        <Link className="nav-link" to="">
+          Koti
+        </Link>
+        <Link className="nav-link" to="">
+          Palvelut
+        </Link>
+        <Link className="nav-link" to="">
+          Yhteystiedot
+        </Link>
+        <Link className="nav-link" to="">
+          Tietoja
+        </Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

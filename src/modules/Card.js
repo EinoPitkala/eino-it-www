@@ -1,4 +1,3 @@
-
 export default function Card(props) {
   return (
     <div className="card">
@@ -8,5 +7,3 @@ export default function Card(props) {
     </div>
   );
 }
-
-
