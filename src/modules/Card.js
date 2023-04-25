@@ -4,6 +4,7 @@ export default function Card(props) {
       <div className="card-icon">{props.icon}</div>
       <h3 className="card-title">{props.title}</h3>
       <p className="card-content">{props.content}</p>
+      <h3 className="card-title">{props.rating}</h3>
     </div>
   );
 }

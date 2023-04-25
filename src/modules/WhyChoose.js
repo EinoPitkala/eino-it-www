@@ -8,10 +8,13 @@ import {
 import Card from "./Card";
 export default function WhyChoose() {
   return (
-    <div className="why-choose">
-      <h2>
-        Saatat kysyä itseltäsi; miksi valitsisin juuri Eino IT:n palvelut?
-      </h2>
+    <div className="why-choose" id="why-choose">
+      <div className="why-choose-text">
+        <h2>
+          Saatat kysyä itseltäsi; miksi valitsisin juuri Eino IT:n palvelut?
+        </h2>
+      </div>
+
       <div className="why-choose-cards">
         <Card
           icon={<FaCreditCard />}
