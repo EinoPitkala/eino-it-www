@@ -213,7 +213,6 @@ header h3 .logo:hover {
   }
 }
 
-
 .why-choose-cards {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -282,56 +281,6 @@ header h3 .logo:hover {
   margin: 20px;
 }
 
-.opinion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 60px;
-  height: 60px;
-  border-radius: 10px;
-  background-color: #f2f2f2;
-  cursor: pointer;
-  margin: 10px;
-}
-
-.opinion:hover {
-  background-color: #d9d9d9;
-}
-
-.opinion .rating {
-  font-size: 28px;
-  font-weight: bold;
-  color: #555;
-}
-
-.selected-opinion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-}
-
-.selected-opinion .rating {
-  font-size: 48px;
-  font-weight: bold;
-  color: #555;
-  margin-bottom: 10px;
-}
-
-.selected-opinion .comment {
-  font-size: 24px;
-  color: #555;
-  margin-bottom: 10px;
-}
-
-.selected-opinion .date {
-  font-size: 16px;
-  color: #777;
-}
 .contact-ad-container {
   background: linear-gradient(
     90deg,
@@ -339,7 +288,7 @@ header h3 .logo:hover {
     rgba(45, 76, 233, 0.5) 100%
   );
   border-radius: 20px;
-  padding: 20px 20px 20px 30px;
+  padding: 10px 20px 30px 20px;
 }
 .contact-ad-text {
   min-height: 10vh;
@@ -354,17 +303,17 @@ header h3 .logo:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .contact-ad-container{
+  .contact-ad-container {
     background: linear-gradient(
-    20deg,
-    rgba(32, 29, 29, 0.5) 0%,
-    rgba(45, 76, 233, 0.5) 100%
-  );
+      20deg,
+      rgba(32, 29, 29, 0.5) 0%,
+      rgba(45, 76, 233, 0.5) 100%
+    );
   }
   .contact-ad-text {
     width: 100%;
   }
-  .contact-buttons{
+  .contact-buttons {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -375,24 +324,26 @@ header h3 .logo:hover {
 .footer-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  margin-top: 10vh;
+  text-align: left;
   background-color: var(--darker-color);
   padding: 30px;
   margin: 0;
   margin-top: 50px;
   border-radius: 20px;
+  justify-content: space-around;
 }
 
-.footer-logo{
+.footer-logo {
   width: 200px;
   height: 200px;
 }
 
-.footer-content-left, .footer-content-right{
+.footer-content-left,
+.footer-content-right {
   width: 200px;
 }
+
 
 .footer-content li a {
   text-decoration: underline;
@@ -400,4 +351,11 @@ header h3 .logo:hover {
 }
 .footer-content li {
   margin-bottom: 10px;
+}
+
+.footer-content-right a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 2rem;
+  margin-right: 2rem;
 }

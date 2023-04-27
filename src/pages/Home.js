@@ -10,7 +10,6 @@ export default function Home() {
       <WhyChoose />
       <OpinionsGrid />
       <ContactAd />
-      <Footer />
     </>
   );
 }
