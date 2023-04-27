@@ -2,7 +2,7 @@ import {
   FaCreditCard,
   FaPeopleArrows,
   FaClock,
-  FaQuestion,
+  FaHouseUser,
 } from "react-icons/fa";
 
 import Card from "./Card";
@@ -32,9 +32,9 @@ export default function WhyChoose() {
           content="Nuorena ja ketteränä yrittäjänä minulla on aikaa asiakkailleni ja tilanteiden vaatiessa pystyn sopeutumaan nopeasti muuttuviin tilanteisiin."
         />
         <Card
-          icon={<FaQuestion />}
-          title="Lorem ipsum"
-          content="Lorem ipsun dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget aliquam ultricies, nisl nisl tincidunt nisl, quis ultrices nisl nisl nec nisl."
+          icon={<FaHouseUser />}
+          title="Palvelun paikka"
+          content="Voin tarjota palvelua, joka sisältää kotona tapahtuvan kokonaisvaltaisen suorituksen pienen lisämaksun avulla. Tietyissä tilanteissa palvelun voi suorittaa kokonaan etänä tai puoliksi kotona ja puoliksi etänä. Lisäksi joissakin tilanteissa, joissa käyttäjän läsnäoloa ei tarvita, voin ottaa vastaan laitteen ja suorittaa palvelun sen parissa."
         />
       </div>
     </div>

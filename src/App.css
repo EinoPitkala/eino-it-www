@@ -119,6 +119,11 @@ body {
   transition-duration: 0.32s;
   color: var(--text-color);
 }
+.button-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 
 .button:hover {
   background-color: var(--secondary-color);
@@ -225,7 +230,7 @@ header h3 .logo:hover {
   margin-top: 10vh;
 }
 .opinions-text {
-  margin-right: 100px;
+  margin-right: 60px;
 }
 
 .card {
@@ -326,4 +331,43 @@ header h3 .logo:hover {
 .selected-opinion .date {
   font-size: 16px;
   color: #777;
+}
+.contact-ad-container {
+  background: linear-gradient(
+    90deg,
+    rgba(32, 29, 29, 0.5) 0%,
+    rgba(45, 76, 233, 0.5) 100%
+  );
+  border-radius: 20px;
+  padding: 20px 20px 20px 30px;
+}
+.contact-ad-text {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 50vw;
+}
+.contact-ad {
+  margin-top: 10vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-ad-container{
+    background: linear-gradient(
+    20deg,
+    rgba(32, 29, 29, 0.5) 0%,
+    rgba(45, 76, 233, 0.5) 100%
+  );
+  }
+  .contact-ad-text {
+    width: 100%;
+  }
+  .contact-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 }
