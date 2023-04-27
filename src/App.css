@@ -371,3 +371,33 @@ header h3 .logo:hover {
     flex-wrap: wrap;
   }
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10vh;
+  background-color: var(--darker-color);
+  padding: 30px;
+  margin: 0;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.footer-logo{
+  width: 200px;
+  height: 200px;
+}
+
+.footer-content-left, .footer-content-right{
+  width: 200px;
+}
+
+.footer-content li a {
+  text-decoration: underline;
+  color: var(--text-color);
+}
+.footer-content li {
+  margin-bottom: 10px;
+}
