@@ -359,3 +359,18 @@ header h3 .logo:hover {
   font-size: 2rem;
   margin-right: 2rem;
 }
+
+.footer-contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-badges {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 5rem;
+  height: 5rem;
+}

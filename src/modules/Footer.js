@@ -1,4 +1,5 @@
 import { ReactComponent as Logo } from "../assets/images/logo.svg";
+import { ReactComponent as RegistarLogo } from "../assets/images/registar.svg";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="footer-content-left">
           <Logo className="footer-logo" />
           <h2>Eino IT</h2>
-          <ul>
+          <ul className="footer-contact-list">
             <li>Y-tunnus: 3284417-9</li>
             <li>eino-it.fi</li>
             <li>
@@ -24,9 +25,18 @@ export default function Footer() {
         </div>
         <div className="footer-content-right">
           <h3>Seuraa meitä somessa:</h3>
-          <a href="https://fb.me/eino.it"><FaFacebook /></a>
-          <a href="https://twitter.com/eino_it"><FaTwitter /></a>
-          <a href="https://www.instagram.com/eino_it/"><FaInstagram /></a>
+          <a href="https://fb.me/eino.it">
+            <FaFacebook />
+          </a>
+          <a href="https://twitter.com/eino_it">
+            <FaTwitter />
+          </a>
+          <a href="https://www.instagram.com/eino_it/">
+            <FaInstagram />
+          </a>
+          <div className="footer-badges">
+            <RegistarLogo className="registar-logo" />
+          </div>
         </div>
       </div>
     </div>

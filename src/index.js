@@ -5,6 +5,7 @@ import NavBar from "./modules/NavBar";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./modules/Footer";
+import Services from "./pages/Services";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,7 +15,7 @@ root.render(
       <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/yhteystiedot" element={<Home />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </div>
       <Footer />
