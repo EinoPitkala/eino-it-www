@@ -28,7 +28,7 @@ export default function WhyChoose() {
         />
         <Card
           icon={<FaClock />}
-          title="Luotettavuus"
+          title="Aika"
           content="Nuorena ja ketteränä yrittäjänä minulla on aikaa asiakkailleni ja tilanteiden vaatiessa pystyn sopeutumaan nopeasti muuttuviin tilanteisiin."
         />
         <Card

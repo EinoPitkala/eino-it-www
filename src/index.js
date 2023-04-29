@@ -15,7 +15,7 @@ root.render(
       <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/palvelut" element={<Services />} />
         </Routes>
       </div>
       <Footer />

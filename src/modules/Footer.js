@@ -37,6 +37,7 @@ export default function Footer() {
           <div className="footer-badges">
             <RegistarLogo className="registar-logo" />
           </div>
+          <p>&copy; Eino Pitkälä / Eino IT 2023</p>
         </div>
       </div>
     </div>

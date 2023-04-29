@@ -16,10 +16,10 @@ function NavBar() {
         </Link>
       </h3>
       <nav ref={navRef}>
-        <Link className="nav-link" to="">
+        <Link className="nav-link" to="/">
           Koti
         </Link>
-        <Link className="nav-link" to="">
+        <Link className="nav-link" to="/palvelut">
           Palvelut
         </Link>
         <Link className="nav-link" to="">
