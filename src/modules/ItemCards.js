@@ -5,8 +5,9 @@ export default function ItemCards() {
       <div className="items" id="items">
         <div className="item-cards">
           <Card
-            title="Title palvelu päläpälä1"
-            content="lorem ipsum"
+            title="Tietokoneen, puhelimen tai tabletin pienet ongelmat"
+            content="Tämä hinta sisältää pienet ongelmat, kuten ohjelmistojen asennukset, päivitykset, virustorjunnan asennukset, sekä muut pienet ongelmat."
+            rating="Alkaen 20€"
           />
           <Card
             title="Title palvelu päläpälä2"

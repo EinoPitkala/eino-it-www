@@ -73,6 +73,9 @@
 }
 html {
   scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 :root {
   --bg-color: #0a2647;
@@ -190,13 +193,15 @@ header h3 .logo:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    background-color: var(--bg-color);
+    background-color: var(--darker-color);
+    border-radius: 10px;
+    border-bottom: 1px solid white;
     transition: 0.5s;
     transform: translateY(-100vh);
   }
@@ -319,20 +324,29 @@ header h3 .logo:hover {
     align-items: flex-start;
     flex-wrap: wrap;
   }
+  .services-header-content {
+    width: 70vw;
+    margin-bottom: 80px;
+  }
+  .footer-logo {
+    width: 7rem !important;
+    height: 7rem !important;
+  }
 }
 
 .footer-content {
   display: flex;
   flex-direction: row;
-  align-items: center;
   text-align: left;
   background-color: var(--darker-color);
   padding: 30px;
   padding-bottom: 60px;
   margin-bottom: 0;
   margin-top: 50px;
-  border-radius: 20px;
   justify-content: space-around;
+  height: 100%;
+  border-radius: 30px 30px 0 0;
+  align-items: baseline;
 }
 
 .footer-logo {
