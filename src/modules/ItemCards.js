@@ -1,4 +1,5 @@
 import Card from "./Card";
+import Button from "./Button";
 
 export default function ItemCards() {
   return (
@@ -22,13 +23,18 @@ export default function ItemCards() {
         <Card
           title="Muun elektroniikan korjaukset"
           content="Esimerkiksi älytelevisiot, pelikonsolit, digiboksit ja muut."
+          rating="Alkaen 30€"
         />
-      </div>
-      <div className="item-cards-outer">
         <Card
-          className="item-cards-outer"
           title="Isommat projektit"
           content="Esimerkiksi nettisivut, ylläpito ja muut. Pyydä tarjous."
+        >
+          <Button buttonText="Pyydä tarjous" url="/" />
+        </Card>
+        <Card
+          title="Kotikäynti"
+          content="Veloitetaan kotikäynneistä."
+          rating="10€"
         />
       </div>
     </div>
