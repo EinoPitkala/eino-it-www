@@ -266,7 +266,6 @@ header h3 .logo:hover {
   font-size: 1rem;
 }
 
-
 .opinions-grid {
   display: flex;
   flex-direction: row;
@@ -294,8 +293,6 @@ header h3 .logo:hover {
 .contact-ad {
   margin-top: 10vh;
 }
-
-
 
 .footer-content {
   display: flex;
