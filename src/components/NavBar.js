@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { ReactComponent as Logo } from "../assets/images/logo.svg";
-import { Link } from "react-router-dom";
+import { NavLink as Navlink } from "react-router-dom";
 
 function NavBar() {
   const navRef = useRef();
@@ -11,23 +11,23 @@ function NavBar() {
   return (
     <header>
       <h3>
-        <Link to="/">
+        <Navlink to="/">
           <Logo />
-        </Link>
+        </Navlink>
       </h3>
       <nav ref={navRef}>
-        <Link className="nav-link" to="/">
+        <Navlink className="nav-link" to="/">
           Koti
-        </Link>
-        <Link className="nav-link" to="/palvelut">
+        </Navlink>
+        <Navlink className="nav-link" to="/palvelut">
           Palvelut
-        </Link>
-        <Link className="nav-link" to="">
+        </Navlink>
+        <Navlink className="nav-link" to="/yhteystiedot">
           Yhteystiedot
-        </Link>
-        <Link className="nav-link" to="">
+        </Navlink>
+        <Navlink className="nav-link" to="/läpä">
           Tietoja
-        </Link>
+        </Navlink>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

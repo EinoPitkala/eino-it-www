@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Eino IT - Etusivu</title>
+        <title>Etusivu - Eino IT</title>
       </Helmet>
       <LandingBlock />
       <WhyChoose />

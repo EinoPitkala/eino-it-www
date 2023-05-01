@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <>
       <Helmet>
-        <title>Eino IT - Palvelut</title>
+        <title>Palvelut - Eino IT</title>
       </Helmet>
       <ServicesHeader />
       <ItemCards />

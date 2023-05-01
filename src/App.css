@@ -366,7 +366,32 @@ header h3 .logo:hover {
 .item-cards-outer {
   margin-top: 20px;
 }
+nav .active {
+  color: var(--primary-color);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  background-color: #0616286c;
+}
 
+.not-found p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.contacts-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+
+.contact-link {
+  text-decoration: underline;
+  color: var(--text-color);
+}
 @media only screen and (max-width: 768px) {
   .why-choose-cards {
     grid-template-columns: repeat(1, 1fr);
@@ -406,4 +431,15 @@ header h3 .logo:hover {
     width: 7rem !important;
     height: 7rem !important;
   }
+  nav .active {
+    color: var(--primary-color);
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
 }
+
+
