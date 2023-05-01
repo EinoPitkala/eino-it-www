@@ -1,5 +1,5 @@
-import Card from "./Card";
-import Button from "./Button";
+import Card from "../modules/Card";
+import Button from "../modules/Button";
 
 export default function ItemCards() {
   return (

@@ -1,6 +1,6 @@
 import { FaUser } from "react-icons/fa";
 
-import Card from "./Card";
+import Card from "../modules/Card";
 export default function OpinionsGrid() {
   return (
     <div className="opinions" id="opinions">
@@ -18,22 +18,22 @@ export default function OpinionsGrid() {
         <Card
           icon={<FaUser />}
           content="Reipas nuori, jolla it-asiat ovat hallussa👍"
-          rating="10"
+          rating="10/10"
         />
         <Card
           icon={<FaUser />}
           content="Nopea asiantunteva palvelu"
-          rating="10"
+          rating="10/10"
         />
         <Card
           icon={<FaUser />}
           content="Sain itse ensiluokkaista, nopeaa, sekä sellaista palvelua, että kertaakaan en tuntenut itseäni tyhmäksi kun Eino korjasi ongelmaa. Harvinainen tilannetaju nuorella miehellä. Arvostan!"
-          rating="10"
+          rating="10/10"
         />
         <Card
           icon={<FaUser />}
           content="Asia tuli korjattua ripeästi. Kiitos!"
-          rating="8"
+          rating="8/10"
         />
       </div>
     </div>

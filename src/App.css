@@ -98,7 +98,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: left;
-  padding: 20px 20vw;
+  padding: 20px 15vw;
 }
 
 .marketing-word {
@@ -133,7 +133,7 @@ body {
 }
 
 .landing-block {
-  min-height: 90vh;
+  min-height: 75vh;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -146,7 +146,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 20vw;
+  padding: 0 2vw;
   color: white;
 }
 nav .nav-link {
@@ -154,6 +154,7 @@ nav .nav-link {
   color: white;
   text-decoration: none;
   transition: 0.3s;
+  font-size: 20px;
 }
 
 nav .nav-link:hover {

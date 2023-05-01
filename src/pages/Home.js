@@ -1,7 +1,7 @@
-import LandingBlock from "../modules/LandingBlock";
-import WhyChoose from "../modules/WhyChoose";
-import OpinionsGrid from "../modules/OpinionsGrid";
-import ContactAd from "../modules/ContactAd";
+import LandingBlock from "../components/LandingBlock";
+import WhyChoose from "../components/WhyChoose";
+import OpinionsGrid from "../components/OpinionsGrid";
+import ContactAd from "../components/ContactAd";
 import { Helmet } from "react-helmet";
 export default function Home() {
   return (

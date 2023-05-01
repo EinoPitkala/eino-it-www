@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./App.css";
-import NavBar from "./modules/NavBar";
+import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from "./modules/Footer";
+import Footer from "./components/Footer";
 import Services from "./pages/Services";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

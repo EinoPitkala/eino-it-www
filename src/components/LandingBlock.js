@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../modules/Button";
 
 export default function LandingBlock() {
   return (

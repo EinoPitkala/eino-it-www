@@ -1,6 +1,6 @@
-import ServicesHeader from "../modules/ServicesHeader";
+import ServicesHeader from "../components/ServicesHeader";
 import { Helmet } from "react-helmet";
-import ItemCards from "../modules/ItemCards";
+import ItemCards from "../components/ItemCards";
 export default function Services() {
   return (
     <>

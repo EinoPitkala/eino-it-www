@@ -5,7 +5,7 @@ import {
   FaHouseUser,
 } from "react-icons/fa";
 
-import Card from "./Card";
+import Card from "../modules/Card";
 export default function WhyChoose() {
   return (
     <div className="why-choose" id="why-choose">
