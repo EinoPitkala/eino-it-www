@@ -25,7 +25,7 @@ function NavBar() {
         <Navlink className="nav-link" to="/yhteystiedot">
           Yhteystiedot
         </Navlink>
-        <Navlink className="nav-link" to="/läpä">
+        <Navlink className="nav-link" to="/tietoja">
           Tietoja
         </Navlink>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>

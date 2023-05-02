@@ -29,7 +29,7 @@ export default function ItemCards() {
           title="Isommat projektit"
           content="Esimerkiksi nettisivut, ylläpito ja muut. Pyydä tarjous."
         >
-          <Button buttonText="Pyydä tarjous" url="/" />
+          <Button buttonText="Pyydä tarjous" url="/yhteystiedot" />
         </Card>
         <Card
           title="Kotikäynti"

@@ -7,7 +7,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Services from "./pages/Services";
 import NotFound from "./pages/NotFound";
-import Contacts from "./components/Contacts";
+import Contacts from "./pages/Contacts";
+import About from "./pages/About";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +21,7 @@ root.render(
           <Route path="/" element={<Home />} />
           <Route path="/palvelut" element={<Services />} />
           <Route path="/yhteystiedot" element={<Contacts />}/>
+          <Route path="/tietoja" element={<About />}/>
         </Routes>
       </div>
       <Footer />
