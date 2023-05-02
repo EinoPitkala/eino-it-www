@@ -453,5 +453,11 @@ nav .active {
   text-decoration: underline;
   color: var(--text-color);
 }
+.beta-warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--darker-color);
+}
 
 
