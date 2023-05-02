@@ -330,11 +330,15 @@ header h3 .logo:hover {
   margin-bottom: 10px;
 }
 
-.footer-content-right a {
+.footer-content-right .footer-links a {
   text-decoration: none;
   color: var(--text-color);
   font-size: 2rem;
   margin-right: 2rem;
+}
+.footer-content-right a {
+  text-decoration: underline;
+  color: var(--text-color);
 }
 
 .footer-contact-list {

@@ -25,19 +25,25 @@ export default function Footer() {
         </div>
         <div className="footer-content-right">
           <h3>Seuraa meitä somessa:</h3>
-          <a href="https://fb.me/eino.it">
-            <FaFacebook />
-          </a>
-          <a href="https://twitter.com/eino_it">
-            <FaTwitter />
-          </a>
-          <a href="https://www.instagram.com/eino_it/">
-            <FaInstagram />
-          </a>
+          <div className="footer-links">
+            <a href="https://fb.me/eino.it">
+              <FaFacebook />
+            </a>
+            <a href="https://twitter.com/eino_it">
+              <FaTwitter />
+            </a>
+            <a href="https://www.instagram.com/eino_it/">
+              <FaInstagram />
+            </a>
+          </div>
           <div className="footer-badges">
             <RegistarLogo className="registar-logo" />
           </div>
           <p>&copy; Eino Pitkälä / Eino IT 2023</p>
+          <p>
+            Page source avaible{" "}
+            <a href="https://github.com/seoneizz/eino-it-www">here.</a>
+          </p>
         </div>
       </div>
     </div>
