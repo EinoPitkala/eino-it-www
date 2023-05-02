@@ -13,8 +13,8 @@ export default function LandingBlock() {
         </h2>
       </div>
       <div className="button-row">
-        <Button buttonText="Palvelut" url="#why-choose" />
-        <Button buttonText="Lue lisää" url="https://google.com/" />
+        <Button buttonText="Palvelut" url="/palvelut" />
+        <Button buttonText="Lue lisää" url="#why-choose" />
       </div>
     </div>
   );

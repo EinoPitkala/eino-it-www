@@ -76,6 +76,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  
 }
 :root {
   --bg-color: #0a2647;
@@ -91,6 +92,7 @@ body {
   background-color: var(--bg-color);
   box-sizing: border-box;
   color: white;
+  overflow-x: hidden;
 }
 
 .content {
@@ -462,6 +464,14 @@ nav .active {
   align-items: center;
   justify-content: center;
   background-color: var(--darker-color);
+  width: 100%;
+}
+.beta-warning p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: center;
+  margin: 10px;
 }
 
 
