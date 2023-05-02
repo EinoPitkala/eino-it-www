@@ -409,6 +409,9 @@ nav .active {
   .opinions-cards {
     grid-template-columns: repeat(1, 1fr);
   }
+  .contacts-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .contact-ad-container {
     background: linear-gradient(
       20deg,
@@ -424,6 +427,9 @@ nav .active {
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
+  }
+  .about-header {
+    width: 70vw !important;
   }
   .services-header-content {
     width: 70vw;
