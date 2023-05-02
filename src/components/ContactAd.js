@@ -17,7 +17,7 @@ export default function ContactAd() {
         </div>
         <div className="contact-buttons">
           <Button buttonText="Sähköposti" url="mailto:eino@eino-it.fi" />
-          <Button buttonText="Messenger" url="m.me/eino.it" />
+          <Button buttonText="Messenger" url="https://m.me/eino.it" />
           <Button buttonText="Muut" url="/yhteystiedot" />
         </div>
       </div>
