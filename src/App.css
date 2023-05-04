@@ -354,10 +354,9 @@ header h3 .logo:hover {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  width: 5rem;
-  height: 5rem;
+  height: 80%;
+  width: 80%;
 }
-
 .services-header {
   min-height: 40vh;
   display: flex;

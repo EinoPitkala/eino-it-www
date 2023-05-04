@@ -1,5 +1,6 @@
 import { ReactComponent as Logo } from "../assets/images/logo.svg";
 import { ReactComponent as RegistarLogo } from "../assets/images/registar.svg";
+import {ReactComponent as DigiTuki} from "../assets/images/digituki.svg";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
@@ -38,6 +39,7 @@ export default function Footer() {
           </div>
           <div className="footer-badges">
             <RegistarLogo className="registar-logo" />
+            <DigiTuki className="registar-logo" />
           </div>
           <p>&copy; Eino Pitkälä / Eino IT 2023</p>
           <p>
