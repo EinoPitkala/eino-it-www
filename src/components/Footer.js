@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
           <p>&copy; Eino Pitkälä / Eino IT 2023</p>
           <p>
-            Page source avaible{" "}
+            Page source available{" "}
             <a href="https://github.com/seoneizz/eino-it-www">here.</a>
           </p>
         </div>
