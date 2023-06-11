@@ -22,6 +22,9 @@ export default function Footer() {
               <a href="https://m.me/eino.it">m.me/eino.it</a>
             </li>
             <li>Kuopio, Pohjois-Savo, Finland</li>
+            <li>
+              <a href="/invoicing.pdf">Laskutustiedot/Invoicing details</a>
+            </li>
           </ul>
         </div>
         <div className="footer-content-right">
