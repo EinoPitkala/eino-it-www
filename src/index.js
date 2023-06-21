@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 import Contacts from "./pages/Contacts";
 import About from "./pages/About";
 import SomeKayttaytyminen from "./pages/SomeKayttaytyminen";
+import EScooter from "./pages/EScooter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +27,7 @@ root.render(
           <Route path="/yhteystiedot" element={<Contacts />}/>
           <Route path="/tietoja" element={<About />}/>
           <Route path="/some-kayttaytyminen" element={<SomeKayttaytyminen />}/>
+          <Route path="/sahkoskuutin-viritys" element={<EScooter />}/>
         </Routes>
       </div>
       <Footer />
