@@ -5,7 +5,7 @@ export default function ContactAd() {
     <div className="contact-ad">
       <div className="contact-ad-container">
         <div className="contact-ad-text">
-          <h1>Sattuisiko juuri sinulla olemaan nyt joku tarve minun apuuni?</h1>
+          <h2>Sattuisiko juuri sinulla olemaan nyt joku tarve minun apuuni?</h2>
           <p>
             Voimme alkaa sopimaan työtä heti vaikka sähköpostilla, Messenger
             viestillä, puhelimella, tekstiviestillä tai muulla tavalla. Eikö

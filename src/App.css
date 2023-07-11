@@ -190,6 +190,9 @@ header h3 .logo:hover {
   .landing-block {
     width: 70vw;
   }
+  .companyName {
+    font-size: 2rem;
+  }
   header .nav-btn {
     display: contents;
     opacity: 1;
@@ -300,6 +303,10 @@ header h3 .logo:hover {
   align-content: center;
   flex-direction: column;
   width: 50vw;
+}
+.contact-ad-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 .contact-ad {
   margin-top: 10vh;
@@ -482,3 +489,7 @@ nav .active {
   color: var(--new-color);
 }
 
+.footer-pages {
+  display: flex;
+  flex-direction: column;
+}

@@ -11,7 +11,7 @@ export default function WhyChoose() {
     <div className="why-choose" id="why-choose">
       <div className="why-choose-text">
         <h2>
-          Saatat kysyä itseltäsi; miksi valitsisin juuri Eino IT:n palvelut?
+          Saatat kysyä itseltäsi; miksi valitsisin juuri Eino IT:n <strong>it-avun?</strong>
         </h2>
       </div>
 

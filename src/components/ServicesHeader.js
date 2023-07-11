@@ -2,7 +2,9 @@ export default function ServicesHeader() {
   return (
     <div className="services-header">
       <div className="services-header-content">
-        <h1>Palvelut</h1>
+        <h1>
+          <strong>IT-apupalveluni</strong>
+        </h1>
         <p>
           Hintani löytyvät alta. Päivitän hinnastoa tarvittaessa lisäämällä
           uusia palveluja. Hinnoitteluni perustuu kaikkien yrityskulujen

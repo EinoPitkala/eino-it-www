@@ -5,7 +5,8 @@ export default function LandingBlock() {
     <div className="landing-block">
       <div className="text-block">
         <h1 className="companyName">
-          IT-Apua asiantuntevalta 14-vuotiaalta nuorelta yrittäjältä.
+          <strong>IT-Apua </strong>
+          asiantuntevalta 14-vuotiaalta nuorelta yrittäjältä.
         </h1>
         <h2 className="marketing-word">
           Hanki mielenrauhaa laitteidesi toimintavarmuuteen. Valitse
