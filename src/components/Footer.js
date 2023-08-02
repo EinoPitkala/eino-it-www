@@ -1,13 +1,13 @@
 import { ReactComponent as Logo } from "../assets/images/logo.svg";
 import { ReactComponent as RegistarLogo } from "../assets/images/registar.svg";
-import {ReactComponent as DigiTuki} from "../assets/images/digituki.svg";
+import { ReactComponent as DigiTuki } from "../assets/images/digituki.svg";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <Logo className="footer-logo" />
+          <Logo className="footer-logo" alt="Eino IT logo" />
           <h2>Eino IT</h2>
           <ul className="footer-contact-list">
             <li>Y-tunnus: 3284417-9</li>
@@ -22,6 +22,9 @@ export default function Footer() {
               <a href="https://m.me/eino.it">m.me/eino.it</a>
             </li>
             <li>Kuopio, Pohjois-Savo, Finland</li>
+            <li>
+              <a href="/invoicing.pdf">Laskutustiedot/Invoicing details</a>
+            </li>
           </ul>
         </div>
         <div className="footer-content-right">
@@ -43,9 +46,14 @@ export default function Footer() {
           </div>
           <p>&copy; Eino Pitkälä / Eino IT 2023</p>
           <p>
-            Page source avaible{" "}
+            Page source available{" "}
             <a href="https://github.com/seoneizz/eino-it-www">here.</a>
           </p>
+          <div className="footer-pages">
+            <a href="/tietoja">Tietoja</a>
+            <a href="/yhteystiedot">Yhteystiedot</a>
+            <a href="/palvelut">Palvelut</a>
+          </div>
         </div>
       </div>
     </div>

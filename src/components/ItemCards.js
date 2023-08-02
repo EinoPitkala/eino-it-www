@@ -36,6 +36,9 @@ export default function ItemCards() {
           content="Veloitetaan kotikäynneistä."
           rating="10€"
         />
+        {/* <Card new={true} title="Sähköskuutin viritys" content="Soveltuu monelle mallille.">
+          <Button buttonText="Lue lisää" url="/sahkoskuutin-viritys" />
+        </Card> */}
       </div>
     </div>
   );
