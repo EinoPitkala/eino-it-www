@@ -374,14 +374,12 @@ header h3 .logo:hover {
   margin-top: 20px;
 }
 nav .active {
-  color: var(--primary-color);
-  border-radius: 10px;
   padding: 10px;
   margin: 10px;
   font-size: 1.2rem;
   font-weight: bold;
   transition: all 0.3s ease;
-  background-color: #0616286c;
+  border-bottom: 1px solid white;
 }
 
 .not-found p {
